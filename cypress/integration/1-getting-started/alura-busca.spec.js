@@ -2,6 +2,7 @@ describe('alura busca cursos', () => {
 
     Cypress.on('uncaught:exception', (err, runnable) => {
         return false;
+        
     });
 
     beforeEach(() => {
