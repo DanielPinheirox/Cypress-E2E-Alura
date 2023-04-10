@@ -4,8 +4,6 @@ describe('alura busca cursos', () => {
         return false;
         
     });
-
-
     beforeEach(() => {
         cy.visit('https://www.alura.com.br');
     })
